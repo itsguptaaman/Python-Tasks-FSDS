@@ -1,0 +1,20 @@
+2022-08-21 12:50:23,251 The data is
+2022-08-21 12:50:23,251           Name  Age
+0  Anuj Mishra   17
+2022-08-21 12:50:23,302 127.0.0.1 - - [21/Aug/2022 12:50:23] "POST /insert HTTP/1.1" 200 -
+2022-08-21 12:53:08,555  * Detected change in 'C:\\Users\\Aman\\PycharmProjects\\Flask\\task_4.py', reloading
+2022-08-21 12:53:18,725 The records are
+2022-08-21 12:53:18,725 [('Manish Tiwari', 20), ('Aman Gupta', 22), ('Nikhil Mishra', 22), ('Adatya Mishra', 20), ('Anuj Mishra', 17)]
+2022-08-21 12:53:18,726 127.0.0.1 - - [21/Aug/2022 12:53:18] "POST /fetch HTTP/1.1" 200 -
+2022-08-21 13:09:09,059 The data is
+2022-08-21 13:09:09,059 Anuj Mishra
+2022-08-21 13:09:09,100 Record deleted sucessfully
+2022-08-21 13:09:09,101 127.0.0.1 - - [21/Aug/2022 13:09:09] "POST /delete HTTP/1.1" 200 -
+2022-08-21 13:09:53,206 The data is
+2022-08-21 13:09:53,206 Nikhil Mishra
+2022-08-21 13:09:53,206 Nikhil Broo
+2022-08-21 13:09:53,231 Record Updated sucessfully
+2022-08-21 13:09:53,232 127.0.0.1 - - [21/Aug/2022 13:09:53] "POST /update HTTP/1.1" 200 -
+2022-08-21 13:14:14,969  * Detected change in 'C:\\Users\\Aman\\PycharmProjects\\Flask\\task_4_mongodb.py', reloading
+2022-08-21 13:41:34,685 The data is
+2022-08-21 13:41:34,685 {'Name': ['unknown'], 'Age': [0]}

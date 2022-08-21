@@ -1,0 +1,17 @@
+2022-08-21 14:40:07,479 The records are
+2022-08-21 14:40:07,479 [{'_id': ObjectId('6301ebc6c9d344cbb76d1365'), 'Name': 'Aman', 'Age': 22}, {'_id': ObjectId('6301f3a73be5ddab4f6222fa'), 'Name': ['Nikhil Mishra'], 'Age': [22]}]
+2022-08-21 14:40:07,480 127.0.0.1 - - [21/Aug/2022 14:40:07] "POST /fetch HTTP/1.1" 200 -
+2022-08-21 14:40:51,061 The data is
+2022-08-21 14:40:51,061 Aman
+2022-08-21 14:40:51,061 Aman Gupta
+2022-08-21 14:40:51,456 Record Updated sucessfully
+2022-08-21 14:40:51,457 127.0.0.1 - - [21/Aug/2022 14:40:51] "POST /update HTTP/1.1" 200 -
+2022-08-21 14:41:10,055 The records are
+2022-08-21 14:41:10,056 [{'_id': ObjectId('6301ebc6c9d344cbb76d1365'), 'Name': 'Aman Gupta', 'Age': 22}, {'_id': ObjectId('6301f3a73be5ddab4f6222fa'), 'Name': ['Nikhil Mishra'], 'Age': [22]}]
+2022-08-21 14:41:10,056 127.0.0.1 - - [21/Aug/2022 14:41:10] "POST /fetch HTTP/1.1" 200 -
+2022-08-21 14:41:43,436 Record deleted sucessfully
+2022-08-21 14:41:43,437 127.0.0.1 - - [21/Aug/2022 14:41:43] "POST /delete HTTP/1.1" 200 -
+2022-08-21 14:41:47,980 127.0.0.1 - - [21/Aug/2022 14:41:47] "[31m[1mPOST /delete HTTP/1.1[0m" 400 -
+2022-08-21 14:41:55,507 The records are
+2022-08-21 14:41:55,508 [{'_id': ObjectId('6301f3a73be5ddab4f6222fa'), 'Name': ['Nikhil Mishra'], 'Age': [22]}]
+2022-08-21 14:41:55,508 127.0.0.1 - - [21/Aug/2022 14:41:55] "POST /fetch HTTP/1.1" 200 -
